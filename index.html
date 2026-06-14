@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tavern is Being Built | D&D Virtual Campaign</title>
+    <style>
+        /* Fantasy Styling */
+        body {
+            background-color: #1a120b; /* Dark wood/stone vibe */
+            color: #f5f2eb; /* Parchment white */
+            font-family: 'Georgia', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            /* Background pattern placeholder - Dark smoky aesthetic */
+            background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('https://images.unsplash.com/photo-1519074069444-1ba4fffb6548?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            background: rgba(34, 24, 16, 0.85); /* Dark parchment container */
+            border: 3px solid #b5893d; /* Gold/Bronze accent border */
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), inset 0 0 15px rgba(181, 137, 61, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #d4af37; /* Gold */
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px #000;
+            letter-spacing: 1px;
+        }
+
+        .status {
+            font-style: italic;
+            color: #a89f91;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .dice-icon {
+            font-size: 3.5rem;
+            color: #d4af37;
+            margin: 20px 0;
+            animation: spin 4s infinite linear;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* Call to Action Button */
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #8b0000, #4a0000); /* Crimson Red */
+            color: #fff;
+            padding: 12px 28px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 1px solid #b5893d;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, #a30000, #5c0000);
+            box-shadow: 0 0 10px #d4af37;
+            transform: translateY(-2px);
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Unicode character for a die/crystal shape -->
+        <div class="dice-icon">&#x2922;</div> 
+        
+        <h1>Roll for Initiative...</h1>
+        <div class="status">The Realm is currently loading textures & rulesets.</div>
+        
+        <p>
+            Adventurers, take heed! The architects, mages, and dungeon masters are currently weaving spells to construct this virtual tabletop world. The tavern doors are currently barred, but they shall swing open soon.
+        </p>
+
+        <!-- You can link this to a Discord server, a subreddit, or your email -->
+        <a href="YOUR_DISCORD_OR_COMMUNITY_LINK_HERE" class="btn" target="_blank">Join the Guild Discord</a>
+    </div>
+
+</body>
+</html>

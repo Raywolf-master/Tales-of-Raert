@@ -18,7 +18,7 @@
             padding: 20px;
             box-sizing: border-box;
             text-align: center;
-            /* Background pattern placeholder - Dark smoky aesthetic */
+            /* Background pattern - Dark smoky aesthetic */
             background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('https://images.unsplash.com/photo-1519074069444-1ba4fffb6548?auto=format&fit=crop&w=1920&q=80');
             background-size: cover;
             background-position: center;
@@ -48,12 +48,14 @@
             font-size: 1.1rem;
         }
 
-        .dice-icon {
-            font-size: 3.5rem;
-            color: #d4af37;
-            margin: 20px 0;
-            animation: spin 4s infinite linear;
+        /* Styles your custom image */
+        .dice-image {
+            max-width: 120px;
+            height: auto;
+            margin: 10px 0 20px 0;
             display: inline-block;
+            /* Optional subtle shadow to make the logo pop from the background */
+            filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5)); 
         }
 
         p {
@@ -82,18 +84,13 @@
             box-shadow: 0 0 10px #d4af37;
             transform: translateY(-2px);
         }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <!-- Unicode character for a die/crystal shape -->
-        <div class="dice-icon">&#x2922;</div> 
+        <!-- Custom D&D/Campaign Image Link Placeholder -->
+        <img src="https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2F70185bb0-abaf-4d61-81df-0de6b4d7ef4a/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAACJPhJuoYctGkgZ-dSZhQnxTWy15qPY-5u-UaNx17-kN&exp=1781495516&osig=AAAAAAAAAAAAAAAAAAAAAJ4AArnfWpNiDeriKrerfwrcixO2aQRMHV5HJelo9qjb&signer=media-rpc&x-canva-quality=screen" alt="Campaign Logo" class="dice-image">
         
         <h1>Roll for Initiative...</h1>
         <div class="status">The Realm is currently loading textures & rulesets.</div>
@@ -102,7 +99,7 @@
             Adventurers, take heed! The architects, mages, and dungeon masters are currently weaving spells to construct this virtual tabletop world. The tavern doors are currently barred, but they shall swing open soon.
         </p>
 
-        <!-- You can link this to a Discord server, a subreddit, or your email -->
+        <!-- Link this to a Discord server, a subreddit, or your email -->
         <a href="YOUR_DISCORD_OR_COMMUNITY_LINK_HERE" class="btn" target="_blank">Join the Guild Discord</a>
     </div>
 
